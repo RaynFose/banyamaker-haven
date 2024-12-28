@@ -11,12 +11,17 @@ interface BathPreviewProps {
 
 const BathPreview = ({ width, length, height, type }: BathPreviewProps) => {
   const mountRef = useRef<HTMLDivElement>(null);
+  const sceneRef = useRef<THREE.Scene | null>(null);
+  const bathRef = useRef<THREE.Mesh | null>(null);
+  const geometryRef = useRef<THREE.BufferGeometry | null>(null);
+  const materialRef = useRef<THREE.Material | null>(null);
 
   useEffect(() => {
     if (!mountRef.current) return;
 
     // Scene setup
     const scene = new THREE.Scene();
+    sceneRef.current = scene;
     scene.background = new THREE.Color(0xf5f5f5);
 
     // Camera setup
@@ -47,28 +52,46 @@ const BathPreview = ({ width, length, height, type }: BathPreviewProps) => {
 
     // Bath model
     const createBathModel = () => {
-      const geometry = new THREE.BoxGeometry(width * 2, height * 2, length * 2);
-      const material = new THREE.MeshPhongMaterial({ 
-        color: type === 'barrel' ? 0x8B4513 : 0xDEB887,
-        flatShading: true 
-      });
-      const bath = new THREE.Mesh(geometry, material);
-      
+      if (bathRef.current) {
+        scene.remove(bathRef.current);
+      }
+      if (geometryRef.current) {
+        geometryRef.current.dispose();
+      }
+      if (materialRef.current) {
+        materialRef.current.dispose();
+      }
+
+      let geometry: THREE.BufferGeometry;
       if (type === 'barrel') {
-        bath.geometry = new THREE.CylinderGeometry(
+        geometry = new THREE.CylinderGeometry(
           height, 
           height, 
           length * 2, 
           32
         );
+      } else {
+        geometry = new THREE.BoxGeometry(width * 2, height * 2, length * 2);
+      }
+      geometryRef.current = geometry;
+
+      const material = new THREE.MeshPhongMaterial({ 
+        color: type === 'barrel' ? 0x8B4513 : 0xDEB887,
+        flatShading: true 
+      });
+      materialRef.current = material;
+
+      const bath = new THREE.Mesh(geometry, material);
+      if (type === 'barrel') {
         bath.rotation.x = Math.PI / 2;
       }
       
+      bathRef.current = bath;
       scene.add(bath);
       return bath;
     };
 
-    let bath = createBathModel();
+    const bath = createBathModel();
 
     // Animation
     const animate = () => {
@@ -91,10 +114,18 @@ const BathPreview = ({ width, length, height, type }: BathPreviewProps) => {
     // Cleanup
     return () => {
       window.removeEventListener('resize', handleResize);
-      mountRef.current?.removeChild(renderer.domElement);
-      scene.remove(bath);
-      geometry.dispose();
-      material.dispose();
+      if (mountRef.current) {
+        mountRef.current.removeChild(renderer.domElement);
+      }
+      if (bathRef.current && sceneRef.current) {
+        sceneRef.current.remove(bathRef.current);
+      }
+      if (geometryRef.current) {
+        geometryRef.current.dispose();
+      }
+      if (materialRef.current) {
+        materialRef.current.dispose();
+      }
     };
   }, [width, length, height, type]);
 
