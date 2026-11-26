@@ -5,7 +5,7 @@
 
 | Действие | Кол-во | Что |
 |---|---|---|
-| keep | 33 | главная, хабы ремонта, `/iphone-remontas/`, `/telefonu-remonto-kaina/`, скупка (5), инфо (6), контакты, 11 городов, корзина и кабинет |
+| keep | 33 | главная, хабы ремонта, `/iphone-remontas/`, `/telefonu-remonto-kaina/`, скупка (5), инфо (6), контакты, 11 городов, корзина и кабинет (до этапов 2–4 — заглушки с 301) |
 | 301 | 233 | 99 моделей `/prietaisai/{m}/` → `/remontas/{m}/` · ~90 городских страниц → хаб · дубли `-2` → основной URL · пустые категории брендов → хабы · `/gamintojai/apple-telefonai/` → `/iphone-remontas/` · `/gamintojai/samsung-telefonai/` → `/samsung-remontas/` · пустые WooCommerce-страницы (`/shop/`, `/parduotuve/`, `/cart/`, `/checkout/`, `/wishlist/`, `/dalys-telefonams/` …) → `/telefonai/` или `/krepselis/` · `/iphone-remontasgg/` → `/iphone-remontas/` · блог → `/blogas/{slug}/` · `/privacy-policy-2/` → `/privatumo-politika/` · `/naudojimo-salygos/` → `/pirkimo-taisykles/` |
 | 410 | 7 | `/feed/`, `/comments/feed/`, `/xmlrpc.php`, `/wp-login.php`, `/wp-admin/`, `/wp-json/`, `/locations.kml` |
 
@@ -19,12 +19,12 @@
 - [ ] Прогнать весь `redirects.csv` скриптом против staging: каждая строка отдаёт ожидаемый код и Location.
 
 ## 3. День запуска
-- [ ] TTL DNS заранее снизить до 300 с. Переключить A-запись на новый сервер (Cloudflare).
+- [ ] TTL DNS заранее снизить до 300 с. В hPanel привязать домен `mano-phone.lt` к Node.js-приложению, WordPress перенести на `old.mano-phone.lt` (с паролем).
 - [ ] Проверить HTTPS, `www` → без `www` (301), `http` → `https`.
 - [ ] `robots.txt` (prod) разрешает индексацию, `sitemap.xml` отдаётся; отправить sitemap в Search Console.
-- [ ] Тестовый заказ с реальной оплатой 1 € и возвратом, тестовая запись, тестовая заявка на скупку.
+- [ ] Тестовые заявки всех типов (ремонт, почта, бронь, вопрос, скупка): приходят в админку и в Telegram, письма доходят. На этапе 2 — реальная покупка за 1 € с возвратом.
 - [ ] Проверить события GA4 в DebugView.
-- [ ] Старый WP оставить на поддомене `old.` (закрыт паролем) на 3 месяца.
+- [ ] Старый WP держать на `old.mano-phone.lt` 3 месяца, затем удалить.
 
 ## 4. После запуска (4–6 недель)
 - Каждый день: ошибки покрытия в Search Console, лог 404, Sentry.
