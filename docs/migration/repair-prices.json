@@ -1,0 +1,8344 @@
+{
+ "source": "mano-phone.lt WP REST /wp-json/wp/v2/prietaisai, 2026-11-26",
+ "currency": "EUR",
+ "repair_types": [
+  {
+   "code": "screen_original",
+   "name_lt": "Ekrano keitimas (originalas)"
+  },
+  {
+   "code": "screen",
+   "name_lt": "Ekrano keitimas"
+  },
+  {
+   "code": "screen_glass",
+   "name_lt": "Ekrano stiklo keitimas"
+  },
+  {
+   "code": "battery",
+   "name_lt": "Baterijos keitimas"
+  },
+  {
+   "code": "charging_port",
+   "name_lt": "Krovimo lizdo keitimas"
+  },
+  {
+   "code": "headphone_jack",
+   "name_lt": "Ausinių lizdo keitimas"
+  },
+  {
+   "code": "camera_front",
+   "name_lt": "Priekinės kameros keitimas"
+  },
+  {
+   "code": "camera_rear",
+   "name_lt": "Galinės kameros keitimas"
+  },
+  {
+   "code": "camera",
+   "name_lt": "Kameros keitimas"
+  },
+  {
+   "code": "camera_glass",
+   "name_lt": "Kameros stikliuko keitimas"
+  },
+  {
+   "code": "back_cover",
+   "name_lt": "Galinio dangtelio keitimas"
+  },
+  {
+   "code": "back_glass",
+   "name_lt": "Galinio stiklo keitimas (analogas)"
+  },
+  {
+   "code": "housing",
+   "name_lt": "Korpuso keitimas (originalas)"
+  },
+  {
+   "code": "power_button",
+   "name_lt": "Įjungimo mygtuko keitimas"
+  },
+  {
+   "code": "microphone",
+   "name_lt": "Mikrofono keitimas"
+  },
+  {
+   "code": "earpiece",
+   "name_lt": "Ausies garsiakalbio keitimas"
+  },
+  {
+   "code": "volume_buttons",
+   "name_lt": "Garsumo mygtukų keitimas"
+  },
+  {
+   "code": "data_transfer",
+   "name_lt": "Duomenų perkėlimas iš sudužusio telefono"
+  },
+  {
+   "code": "software",
+   "name_lt": "Programinės įrangos atnaujinimas / atrakinimas"
+  },
+  {
+   "code": "water_damage",
+   "name_lt": "Drėgmės pažeidimų šalinimas / valymas"
+  }
+ ],
+ "devices": [
+  {
+   "slug": "samsung-s9",
+   "name": "Samsung S9",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s9/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s8",
+   "name": "Samsung S8",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s8/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s7",
+   "name": "Samsung S7",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s7/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-20-ultra",
+   "name": "Samsung Note 20 Ultra",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-20-ultra/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 299,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 190,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-20",
+   "name": "Samsung Note 20",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-20/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 200,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-10-lite",
+   "name": "Samsung Note 10 Lite",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-10-lite/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 180,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-10-plus",
+   "name": "Samsung Note 10 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-10-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 285,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 179,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-10",
+   "name": "Samsung Note 10",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-10/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 239,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 179,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-9",
+   "name": "Samsung Note 9",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-9/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 239,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 149,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-note-8",
+   "name": "Samsung Note 8",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-note-8/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 205,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 155,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a72",
+   "name": "Samsung A72",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a72/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 115,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a71",
+   "name": "Samsung A71",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a71/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a70",
+   "name": "Samsung A70",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a70/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a55",
+   "name": "Samsung A55",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a55/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a54",
+   "name": "Samsung A54",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a54/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 115,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a53",
+   "name": "Samsung A53",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a53/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 115,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a52-a52s",
+   "name": "Samsung A52/ A52s",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a52-a52s/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 115,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a51",
+   "name": "Samsung A51",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a51/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a50",
+   "name": "Samsung A50",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a50/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a42",
+   "name": "Samsung A42",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a42/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a41",
+   "name": "Samsung A41",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a41/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a40",
+   "name": "Samsung A40",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a40/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a35",
+   "name": "Samsung A35",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a35/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a34",
+   "name": "Samsung A34",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a34/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a33",
+   "name": "Samsung A33",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a33/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a32",
+   "name": "Samsung A32",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a32/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a30s",
+   "name": "Samsung A30s",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a30s/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a25",
+   "name": "Samsung A25",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a25/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a24",
+   "name": "Samsung A24",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a24/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a23",
+   "name": "Samsung A23",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a23/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a22",
+   "name": "Samsung A22",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a22/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a21s",
+   "name": "Samsung A21(s)",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a21s/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a20e",
+   "name": "Samsung A20e",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a20e/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a05s",
+   "name": "Samsung A05s",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a05s/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a04-a04s",
+   "name": "Samsung A04/ A04s",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a04-a04s/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a03-a03s",
+   "name": "Samsung A03 /A03s",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a03-a03s/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a15",
+   "name": "Samsung A15",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a15/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a14",
+   "name": "Samsung A14",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a14/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a12",
+   "name": "Samsung A12",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a12/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a13",
+   "name": "Samsung A13",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a13/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-a10",
+   "name": "Samsung A10",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-a10/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s24-fe",
+   "name": "Samsung S24 FE",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s24-fe/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s24-plus",
+   "name": "Samsung S24 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s24-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 220,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s24-ultra",
+   "name": "Samsung S24 Ultra",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s24-ultra/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 260,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 200,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s24",
+   "name": "Samsung S24",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s24/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s23-fe",
+   "name": "Samsung S23 FE",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s23-fe/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 105,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s23-plus",
+   "name": "Samsung S23 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s23-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 250,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s23-ultra",
+   "name": "Samsung S23 Ultra",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s23-ultra/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 280,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s23",
+   "name": "Samsung S23",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s23/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 180,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s22-fe",
+   "name": "Samsung S22 FE",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s22-fe/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 115,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s22-plus",
+   "name": "Samsung S22 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s22-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 185,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s22-ultra",
+   "name": "Samsung S22 Ultra",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s22-ultra/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 260,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s22",
+   "name": "Samsung S22",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s22/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 190,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s21-ultra",
+   "name": "Samsung S21 Ultra",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s21-ultra/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 260,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 180,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s21-plus",
+   "name": "Samsung S21 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s21-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 179,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s21-fe",
+   "name": "Samsung S21 FE",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s21-fe/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 125,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s21",
+   "name": "Samsung S21",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s21/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 149,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s20-ultra",
+   "name": "Samsung S20 Ultra",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s20-ultra/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 240,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s20-plus",
+   "name": "Samsung S20 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s20-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 229,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s20",
+   "name": "Samsung S20",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s20/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 210,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s20-fe",
+   "name": "Samsung S20 FE",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s20-fe/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s10",
+   "name": "Samsung S10",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s10/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s10-plus",
+   "name": "Samsung S10 Plus",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s10-plus/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 225,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "samsung-s10e",
+   "name": "Samsung S10e",
+   "brand": "Samsung",
+   "type": "phone",
+   "old_url": "/prietaisai/samsung-s10e/",
+   "repairs": [
+    {
+     "code": "screen",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 85,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_front",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_rear",
+     "price_eur": 55,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_cover",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "data_transfer",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-16-plus",
+   "name": "iPhone 16 Plus",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-16-plus/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-16-pro-max",
+   "name": "iPhone 16 Pro Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-16-pro-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 450,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 155,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-16-pro",
+   "name": "iPhone 16 Pro",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-16-pro/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 320,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 150,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-16",
+   "name": "iPhone 16",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-16/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 340,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-15-pro-max",
+   "name": "iPhone 15 Pro Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-15-pro-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 300,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 200,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 220,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-15-pro",
+   "name": "iPhone 15 Pro",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-15-pro/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 260,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 220,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-15-plus",
+   "name": "iPhone 15 Plus",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-15-plus/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 320,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 200,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-15",
+   "name": "iPhone 15",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-15/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 300,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 200,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-14-pro-max",
+   "name": "iPhone 14 Pro Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-14-pro-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 400,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 200,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-14-pro",
+   "name": "iPhone 14 Pro",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-14-pro/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 280,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 150,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 180,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-14-plus",
+   "name": "iPhone 14 Plus",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-14-plus/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 250,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 150,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 110,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-14",
+   "name": "iPhone 14",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-14/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 220,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-13-pro-max",
+   "name": "iPhone 13 Pro Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-13-pro-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 350,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 150,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 170,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-13-pro",
+   "name": "iPhone 13 Pro",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-13-pro/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 320,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 150,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-13-mini",
+   "name": "iPhone 13 mini",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-13-mini/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 190,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-xs-max",
+   "name": "iPhone XS Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-xs-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 15,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 25,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-13",
+   "name": "iPhone 13",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-13/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 180,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-12-mini",
+   "name": "iPhone 12 Mini",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-12-mini/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 160,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-12-pro-max",
+   "name": "iPhone 12 Pro Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-12-pro-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 220,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 140,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-12-pro",
+   "name": "iPhone 12 Pro",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-12-pro/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 95,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-12",
+   "name": "iPhone 12",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-12/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 95,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 120,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 30,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-11-pro-max",
+   "name": "iPhone 11 Pro Max",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-11-pro-max/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 150,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 95,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 25,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-11-pro",
+   "name": "iPhone 11 Pro",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-11-pro/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 130,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 65,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 25,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-11",
+   "name": "iPhone 11",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-11/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 35,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 25,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-xs",
+   "name": "iPhone XS",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-xs/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-x",
+   "name": "iPhone X",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-x/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 100,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 15,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 25,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-8-plus",
+   "name": "iPhone 8 Plus",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-8-plus/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 15,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 20,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-se",
+   "name": "iPhone SE",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-se/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": null,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "iphone-8",
+   "name": "iPhone 8",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-8/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 75,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 20,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 45,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 15,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 20,
+     "price_from": true
+    }
+   ]
+  },
+  {
+   "slug": "google-pixel-8-pro",
+   "name": "Google Pixel 8 Pro",
+   "brand": "Google",
+   "type": "phone",
+   "old_url": "/prietaisai/google-pixel-8-pro/",
+   "repairs": []
+  },
+  {
+   "slug": "apple-watch-se",
+   "name": "Apple Watch SE",
+   "brand": "Apple",
+   "type": "watch",
+   "old_url": "/prietaisai/apple-watch-se/",
+   "repairs": []
+  },
+  {
+   "slug": "ipad-pro-2024",
+   "name": "iPad Pro 2024",
+   "brand": "Apple",
+   "type": "tablet",
+   "old_url": "/prietaisai/ipad-pro-2024/",
+   "repairs": []
+  },
+  {
+   "slug": "ipad-pro-2022",
+   "name": "iPad Pro 2022",
+   "brand": "Apple",
+   "type": "tablet",
+   "old_url": "/prietaisai/ipad-pro-2022/",
+   "repairs": []
+  },
+  {
+   "slug": "iphone-16e",
+   "name": "iPhone 16e",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-16e/",
+   "repairs": []
+  },
+  {
+   "slug": "iphone-xr",
+   "name": "iPhone XR",
+   "brand": "Apple",
+   "type": "phone",
+   "old_url": "/prietaisai/iphone-xr/",
+   "repairs": [
+    {
+     "code": "screen_original",
+     "price_eur": 90,
+     "price_from": false
+    },
+    {
+     "code": "screen_glass",
+     "price_eur": 80,
+     "price_from": false
+    },
+    {
+     "code": "battery",
+     "price_eur": 40,
+     "price_from": false
+    },
+    {
+     "code": "charging_port",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "headphone_jack",
+     "price_eur": null,
+     "price_from": false
+    },
+    {
+     "code": "camera",
+     "price_eur": 50,
+     "price_from": false
+    },
+    {
+     "code": "camera_glass",
+     "price_eur": 25,
+     "price_from": false
+    },
+    {
+     "code": "back_glass",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "housing",
+     "price_eur": 70,
+     "price_from": false
+    },
+    {
+     "code": "power_button",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "microphone",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "earpiece",
+     "price_eur": 30,
+     "price_from": false
+    },
+    {
+     "code": "volume_buttons",
+     "price_eur": 60,
+     "price_from": false
+    },
+    {
+     "code": "software",
+     "price_eur": 15,
+     "price_from": false
+    },
+    {
+     "code": "water_damage",
+     "price_eur": 25,
+     "price_from": true
+    }
+   ]
+  }
+ ]
+}

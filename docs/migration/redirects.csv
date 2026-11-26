@@ -1,0 +1,274 @@
+old_url,new_url,action,note
+/,/,keep,URL сохраняется
+/supirkimas/,/supirkimas/,keep,URL сохраняется
+/supirkimas/telefonu-supirkimas/,/supirkimas/telefonu-supirkimas/,keep,URL сохраняется
+/telefonu-remontas/,/telefonu-remontas/,keep,URL сохраняется
+/supirkimas/elektronines-technikos-supirkimas/,/supirkimas/elektronines-technikos-supirkimas/,keep,URL сохраняется
+/supirkimas/planseciu-supirkimas/,/supirkimas/planseciu-supirkimas/,keep,URL сохраняется
+/supirkimas/kompiuteriu-supirkimas/,/supirkimas/kompiuteriu-supirkimas/,keep,URL сохраняется
+/remontas-pagal-miesta/telefonu-taisykla-vilniuje/,/remontas-pagal-miesta/telefonu-taisykla-vilniuje/,keep,"город оставляем, текст переписать"
+/telefonu-remonto-kaina/,/telefonu-remonto-kaina/,keep,URL сохраняется
+/iphone-remontas/,/iphone-remontas/,keep,URL сохраняется
+/remontas-pagal-miesta/,/remontas-pagal-miesta/,keep,URL сохраняется
+/informacija/apie-mus/,/informacija/apie-mus/,keep,URL сохраняется
+/apple-remontas/apple-watch-remontas/,/apple-watch-remontas/,301,
+/remontas-pagal-miesta/telefonu-taisykla-mazeikiuose/,/remontas-pagal-miesta/telefonu-taisykla-mazeikiuose/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-anyksciuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-nemencineje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/planseciu-remontas/,/planseciu-remontas/,keep,URL сохраняется
+/remontas-pagal-miesta/telefonu-taisykla-ziezmariuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-zarasuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-zagareje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-visagine/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-virbalyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-vilkijoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-vilkaviskyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-vievyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-vieksniuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-ventoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-veisiejuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-varniuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-varenoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-vabalninke/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-uzventyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-utenoje/,/remontas-pagal-miesta/telefonu-taisykla-utenoje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-ukmergeje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-tytuvenuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-troskunuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-trakuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-telsiuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-taurageje/,/remontas-pagal-miesta/telefonu-taisykla-taurageje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-svencionyse/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-svencioneliuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-subaciuje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-smalininkuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-skuode/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-skaudvileje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-sirvintose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-simne/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-siluteje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-silaleje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-siauliuose-2/,/remontas-pagal-miesta/telefonu-taisykla-siauliuose/,301,дубль -2
+/remontas-pagal-miesta/telefonu-taisykla-siauliuose/,/remontas-pagal-miesta/telefonu-taisykla-siauliuose/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-seduvoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-sedoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-salcininkuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-salantuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-sakiuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-rudiskese/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-rokiskyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-rietave/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-raseiniuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-ramygaloje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-radviliskyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-prienuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-priekuleje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-plungeje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-pasvalyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-panevezyje/,/remontas-pagal-miesta/telefonu-taisykla-panevezyje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-panemuneje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-pandelyse/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-palangoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-pakruojyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-pagegiuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-pabradeje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-obeliuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-naujojoje-akmeneje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-moletuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-marijampoleje/,/remontas-pagal-miesta/telefonu-taisykla-marijampoleje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-linkuvoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-lentvaryje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-lazdijuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kybartuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kursenuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kupiskyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kudirkos-naumiestyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kretingoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-klaipedoje/,/remontas-pagal-miesta/telefonu-taisykla-klaipedoje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-kelmeje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-neringoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kedainiuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kazlu-rudoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kavarske/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kaune-2/,/remontas-pagal-miesta/telefonu-taisykla-kaune/,301,дубль -2
+/remontas-pagal-miesta/telefonu-taisykla-kaune/,/remontas-pagal-miesta/telefonu-taisykla-kaune/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-kalvarijoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-kaisiadoryse/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-jurbarke/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-joniskyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-joniskelyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-jonavoje/,/remontas-pagal-miesta/telefonu-taisykla-jonavoje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-jiezne/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-ignalinoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-grigiskese/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-gelgaudiskyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-garliavoje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-gargzduose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-ezerelyje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-elektrenuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-eisiskese/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-dusetose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-akmeneje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-alytuje/,/remontas-pagal-miesta/telefonu-taisykla-alytuje/,keep,"город оставляем, текст переписать"
+/remontas-pagal-miesta/telefonu-taisykla-alytuje-2/,/remontas-pagal-miesta/telefonu-taisykla-alytuje/,301,дубль -2
+/remontas-pagal-miesta/telefonu-taisykla-ariogaloje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-birstone/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-birzuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-dauguose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-dukste/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-druskininkuose/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/telefonu-taisykla-baltojoje-vokeje/,/remontas-pagal-miesta/,301,тонкая городская страница → хаб «remontas visoje Lietuvoje»
+/remontas-pagal-miesta/iphone-remontas-vilniuje/,/remontas-pagal-miesta/telefonu-taisykla-vilniuje/,301,
+/remontas-pagal-miesta/iphone-remontas-klaipedoje/,/remontas-pagal-miesta/telefonu-taisykla-klaipedoje/,301,
+/remontas-pagal-miesta/iphone-remontas-kaune/,/remontas-pagal-miesta/telefonu-taisykla-kaune/,301,
+/privacy-policy-2/,/privatumo-politika/,301,
+/paskyra/,/paskyra/,keep,URL сохраняется
+/parduotuve/,/telefonai/,301,
+/naudojimo-salygos/,/pirkimo-taisykles/,301,
+/krepselis/,/krepselis/,keep,URL сохраняется
+/kontaktai/,/kontaktai/,keep,URL сохраняется
+/kompiuteriu-remontas/,/kompiuteriu-remontas/,keep,URL сохраняется
+/apple-remontas/,/apple-remontas/,keep,URL сохраняется
+/iphone-remontasgg/,/iphone-remontas/,301,
+/informacija/telefono-uzpilto-vandeniu-remontas/,/informacija/telefono-uzpilto-vandeniu-remontas/,keep,URL сохраняется
+/informacija/remonto-laikas/,/informacija/remonto-laikas/,keep,URL сохраняется
+/informacija/duomenu-atstatymas/,/informacija/duomenu-atstatymas/,keep,URL сохраняется
+/informacija/dazniausi-klausimai/,/informacija/dazniausi-klausimai/,keep,URL сохраняется
+/informacija/,/informacija/,keep,URL сохраняется
+/gamintojai/xiaomi-telefonai/,/telefonu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/xiaomi-plansetes/,/planseciu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/samsung-telefonai/,/samsung-remontas/,301,
+/gamintojai/samsung-plansetes/,/planseciu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/msi-kompiuteriai/,/kompiuteriu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/lenovo-kompiuteriai/,/kompiuteriu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/huawei-telefonai/,/telefonu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/huawei-kompiuteriai/,/kompiuteriu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/hp-kompiuteriai/,/kompiuteriu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/dell-kompiuteriai/,/kompiuteriu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/asus-plansetes/,/planseciu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/asus-kompiuteriai/,/kompiuteriu-remontas/,301,пустая категория бренда (0 моделей)
+/gamintojai/apple-telefonai/,/iphone-remontas/,301,
+/gamintojai/,/telefonu-remontas/,301,
+/gamintojai/apple-kompiuteriai/,/macbook-remontas/,301,
+/gamintojai/apple-plansetes/,/ipad-remontas/,301,
+/dazniausi-huawei-telefonu-gedimai/,/blogas/dazniausi-huawei-telefonu-gedimai/,301,статья блога
+/dalys-telefonams/,/telefonai/,301,
+/cart/,/krepselis/,301,
+/apmokejimas/,/krepselis/,301,
+/telefonu-taisykla-klaipedoje/,/remontas-pagal-miesta/telefonu-taisykla-klaipedoje/,301,
+/xiaomi-kompiuteriai/,/kompiuteriu-remontas/,301,
+/wishlist/,/telefonai/,301,
+/shop/,/telefonai/,301,
+/checkout/,/krepselis/,301,
+/my-account/,/paskyra/,301,
+/naujienos/,/blogas/,301,
+/garantiniu-telefonu-remontas-dazniausi-gedimai/,/blogas/garantiniu-telefonu-remontas-dazniausi-gedimai/,301,статья блога
+/ar-belaidziai-ikrovikliai-nekenkia-telefonui/,/blogas/ar-belaidziai-ikrovikliai-nekenkia-telefonui/,301,статья блога
+/kaip-sutaupyti-remontuojant-telefona/,/blogas/kaip-sutaupyti-remontuojant-telefona/,301,статья блога
+/category/blog/,/blogas/,301,
+/prietaisai/iphone-13-pro-max/,/remontas/iphone-13-pro-max/,301,страница модели → новый прайс
+/prietaisai/iphone-xs-max/,/remontas/iphone-xs-max/,301,страница модели → новый прайс
+/prietaisai/iphone-13-pro/,/remontas/iphone-13-pro/,301,страница модели → новый прайс
+/prietaisai/iphone-13-mini/,/remontas/iphone-13-mini/,301,страница модели → новый прайс
+/prietaisai/iphone-16-plus/,/remontas/iphone-16-plus/,301,страница модели → новый прайс
+/prietaisai/iphone-16-pro-max/,/remontas/iphone-16-pro-max/,301,страница модели → новый прайс
+/prietaisai/iphone-16/,/remontas/iphone-16/,301,страница модели → новый прайс
+/prietaisai/iphone-16-pro/,/remontas/iphone-16-pro/,301,страница модели → новый прайс
+/prietaisai/iphone-14/,/remontas/iphone-14/,301,страница модели → новый прайс
+/prietaisai/iphone-14-pro/,/remontas/iphone-14-pro/,301,страница модели → новый прайс
+/prietaisai/iphone-14-plus/,/remontas/iphone-14-plus/,301,страница модели → новый прайс
+/prietaisai/iphone-14-pro-max/,/remontas/iphone-14-pro-max/,301,страница модели → новый прайс
+/prietaisai/iphone-xs/,/remontas/iphone-xs/,301,страница модели → новый прайс
+/prietaisai/samsung-note-10-lite/,/remontas/samsung-note-10-lite/,301,страница модели → новый прайс
+/prietaisai/samsung-note-10-plus/,/remontas/samsung-note-10-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-note-20-ultra/,/remontas/samsung-note-20-ultra/,301,страница модели → новый прайс
+/prietaisai/iphone-11-pro/,/remontas/iphone-11-pro/,301,страница модели → новый прайс
+/prietaisai/iphone-11-pro-max/,/remontas/iphone-11-pro-max/,301,страница модели → новый прайс
+/prietaisai/apple-watch-se/,/remontas/apple-watch-se/,301,страница модели → новый прайс
+/prietaisai/ipad-pro-2024/,/remontas/ipad-pro-2024/,301,страница модели → новый прайс
+/prietaisai/ipad-pro-2022/,/remontas/ipad-pro-2022/,301,страница модели → новый прайс
+/prietaisai/samsung-s9/,/remontas/samsung-s9/,301,страница модели → новый прайс
+/prietaisai/samsung-s8/,/remontas/samsung-s8/,301,страница модели → новый прайс
+/prietaisai/samsung-s7/,/remontas/samsung-s7/,301,страница модели → новый прайс
+/prietaisai/samsung-s24-ultra/,/remontas/samsung-s24-ultra/,301,страница модели → новый прайс
+/prietaisai/samsung-s24-plus/,/remontas/samsung-s24-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-s24-fe/,/remontas/samsung-s24-fe/,301,страница модели → новый прайс
+/prietaisai/samsung-s24/,/remontas/samsung-s24/,301,страница модели → новый прайс
+/prietaisai/samsung-s23-ultra/,/remontas/samsung-s23-ultra/,301,страница модели → новый прайс
+/prietaisai/samsung-s23-plus/,/remontas/samsung-s23-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-s23-fe/,/remontas/samsung-s23-fe/,301,страница модели → новый прайс
+/prietaisai/samsung-s23/,/remontas/samsung-s23/,301,страница модели → новый прайс
+/prietaisai/samsung-s22-ultra/,/remontas/samsung-s22-ultra/,301,страница модели → новый прайс
+/prietaisai/samsung-s22-plus/,/remontas/samsung-s22-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-s22-fe/,/remontas/samsung-s22-fe/,301,страница модели → новый прайс
+/prietaisai/samsung-s22/,/remontas/samsung-s22/,301,страница модели → новый прайс
+/prietaisai/samsung-s21-ultra/,/remontas/samsung-s21-ultra/,301,страница модели → новый прайс
+/prietaisai/samsung-s21-plus/,/remontas/samsung-s21-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-s21-fe/,/remontas/samsung-s21-fe/,301,страница модели → новый прайс
+/prietaisai/samsung-s21/,/remontas/samsung-s21/,301,страница модели → новый прайс
+/prietaisai/samsung-s20-ultra/,/remontas/samsung-s20-ultra/,301,страница модели → новый прайс
+/prietaisai/samsung-s20-plus/,/remontas/samsung-s20-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-s20-fe/,/remontas/samsung-s20-fe/,301,страница модели → новый прайс
+/prietaisai/samsung-s20/,/remontas/samsung-s20/,301,страница модели → новый прайс
+/prietaisai/samsung-s10e/,/remontas/samsung-s10e/,301,страница модели → новый прайс
+/prietaisai/samsung-s10-plus/,/remontas/samsung-s10-plus/,301,страница модели → новый прайс
+/prietaisai/samsung-s10/,/remontas/samsung-s10/,301,страница модели → новый прайс
+/prietaisai/samsung-note-9/,/remontas/samsung-note-9/,301,страница модели → новый прайс
+/prietaisai/samsung-note-8/,/remontas/samsung-note-8/,301,страница модели → новый прайс
+/prietaisai/samsung-note-20/,/remontas/samsung-note-20/,301,страница модели → новый прайс
+/prietaisai/samsung-note-10/,/remontas/samsung-note-10/,301,страница модели → новый прайс
+/prietaisai/samsung-a72/,/remontas/samsung-a72/,301,страница модели → новый прайс
+/prietaisai/samsung-a71/,/remontas/samsung-a71/,301,страница модели → новый прайс
+/prietaisai/samsung-a70/,/remontas/samsung-a70/,301,страница модели → новый прайс
+/prietaisai/samsung-a55/,/remontas/samsung-a55/,301,страница модели → новый прайс
+/prietaisai/samsung-a54/,/remontas/samsung-a54/,301,страница модели → новый прайс
+/prietaisai/samsung-a53/,/remontas/samsung-a53/,301,страница модели → новый прайс
+/prietaisai/samsung-a51/,/remontas/samsung-a51/,301,страница модели → новый прайс
+/prietaisai/samsung-a50/,/remontas/samsung-a50/,301,страница модели → новый прайс
+/prietaisai/samsung-a42/,/remontas/samsung-a42/,301,страница модели → новый прайс
+/prietaisai/samsung-a41/,/remontas/samsung-a41/,301,страница модели → новый прайс
+/prietaisai/samsung-a40/,/remontas/samsung-a40/,301,страница модели → новый прайс
+/prietaisai/samsung-a35/,/remontas/samsung-a35/,301,страница модели → новый прайс
+/prietaisai/samsung-a34/,/remontas/samsung-a34/,301,страница модели → новый прайс
+/prietaisai/samsung-a33/,/remontas/samsung-a33/,301,страница модели → новый прайс
+/prietaisai/samsung-a32/,/remontas/samsung-a32/,301,страница модели → новый прайс
+/prietaisai/samsung-a30s/,/remontas/samsung-a30s/,301,страница модели → новый прайс
+/prietaisai/samsung-a25/,/remontas/samsung-a25/,301,страница модели → новый прайс
+/prietaisai/samsung-a24/,/remontas/samsung-a24/,301,страница модели → новый прайс
+/prietaisai/samsung-a23/,/remontas/samsung-a23/,301,страница модели → новый прайс
+/prietaisai/samsung-a22/,/remontas/samsung-a22/,301,страница модели → новый прайс
+/prietaisai/samsung-a21s/,/remontas/samsung-a21s/,301,страница модели → новый прайс
+/prietaisai/samsung-a20e/,/remontas/samsung-a20e/,301,страница модели → новый прайс
+/prietaisai/samsung-a15/,/remontas/samsung-a15/,301,страница модели → новый прайс
+/prietaisai/samsung-a14/,/remontas/samsung-a14/,301,страница модели → новый прайс
+/prietaisai/samsung-a13/,/remontas/samsung-a13/,301,страница модели → новый прайс
+/prietaisai/samsung-a12/,/remontas/samsung-a12/,301,страница модели → новый прайс
+/prietaisai/samsung-a10/,/remontas/samsung-a10/,301,страница модели → новый прайс
+/prietaisai/samsung-a05s/,/remontas/samsung-a05s/,301,страница модели → новый прайс
+/prietaisai/samsung-a04-a04s/,/remontas/samsung-a04-a04s/,301,страница модели → новый прайс
+/prietaisai/samsung-a03-a03s/,/remontas/samsung-a03-a03s/,301,страница модели → новый прайс
+/prietaisai/iphone-xr/,/remontas/iphone-xr/,301,страница модели → новый прайс
+/prietaisai/iphone-x/,/remontas/iphone-x/,301,страница модели → новый прайс
+/prietaisai/iphone-se/,/remontas/iphone-se/,301,страница модели → новый прайс
+/prietaisai/iphone-8-plus/,/remontas/iphone-8-plus/,301,страница модели → новый прайс
+/prietaisai/iphone-8/,/remontas/iphone-8/,301,страница модели → новый прайс
+/prietaisai/iphone-16e/,/remontas/iphone-16e/,301,страница модели → новый прайс
+/prietaisai/iphone-15-pro-max/,/remontas/iphone-15-pro-max/,301,страница модели → новый прайс
+/prietaisai/iphone-15-pro/,/remontas/iphone-15-pro/,301,страница модели → новый прайс
+/prietaisai/iphone-15-plus/,/remontas/iphone-15-plus/,301,страница модели → новый прайс
+/prietaisai/iphone-15/,/remontas/iphone-15/,301,страница модели → новый прайс
+/prietaisai/iphone-13/,/remontas/iphone-13/,301,страница модели → новый прайс
+/prietaisai/iphone-12-pro-max/,/remontas/iphone-12-pro-max/,301,страница модели → новый прайс
+/prietaisai/iphone-12-pro/,/remontas/iphone-12-pro/,301,страница модели → новый прайс
+/prietaisai/iphone-12-mini/,/remontas/iphone-12-mini/,301,страница модели → новый прайс
+/prietaisai/iphone-12/,/remontas/iphone-12/,301,страница модели → новый прайс
+/prietaisai/iphone-11/,/remontas/iphone-11/,301,страница модели → новый прайс
+/prietaisai/google-pixel-8-pro/,/remontas/google-pixel-8-pro/,301,страница модели → новый прайс
+/prietaisai/samsung-a52-a52s/,/remontas/samsung-a52-a52s/,301,страница модели → новый прайс
+/feed/,,410,
+/comments/feed/,,410,
+/xmlrpc.php,,410,
+/wp-login.php,,410,
+/wp-admin/,,410,
+/locations.kml,,410,
+/wp-json/,,410,
