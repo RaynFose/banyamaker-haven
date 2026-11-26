@@ -1,13 +1,18 @@
-// ManoPhone: черновик схемы БД (PostgreSQL). Описание в 02-data-model.md.
-// Поля с пометкой // i18n — Json вида { "lt": "...", "ru"?: "...", "en"?: "..." }
-// Деньги хранятся в центах (Int), чтобы не было ошибок округления.
+// ManoPhone: схема БД для этапов 1–3 (MySQL / MariaDB на Hostinger Business).
+// Описание: 02-data-model.md. Модели внутреннего учёта сервиса (этап 4) — в 02-data-model.md §5.
+//
+// Соглашения:
+// - Поля с пометкой «i18n» — Json вида { "lt": "...", "ru"?: "...", "en"?: "..." } (zod-схема LocalizedText).
+// - Деньги хранятся в центах (Int).
+// - MySQL не поддерживает массивы, поэтому списки хранятся как Json (string[] / number[]).
+// - searchText — нормализованная строка для поиска: нижний регистр, без диакритики, с алиасами.
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
@@ -31,31 +36,30 @@ model Brand {
 }
 
 model DeviceModel {
-  id          String     @id @default(cuid())
-  slug        String     @unique // iphone-13-pro (= старый /prietaisai/<slug>/)
-  name        String // "iPhone 13 Pro"
-  brandId     String
-  brand       Brand      @relation(fields: [brandId], references: [id])
-  type        DeviceType
-  series      String? // "iPhone 13", "Galaxy S", "Galaxy A"
-  releaseYear Int?
-  imageUrl    String?
-  specs       Json? // { screen: "6.1\" OLED", chip: "A15", ... }
-  storageOptionsGb Int[] // [128, 256, 512, 1024]
-  colors      String[]
-  aliases     String[] // для поиска: "13pro", "ip13 pro"
-  isActive    Boolean    @default(true)
-  // SEO-текст страницы ремонта модели
-  repairIntro Json? // i18n
-  seoTitle    Json? // i18n
+  id             String     @id @default(cuid())
+  slug           String     @unique // iphone-13-pro (= старый /prietaisai/<slug>/)
+  name           String // "iPhone 13 Pro"
+  brandId        String
+  brand          Brand      @relation(fields: [brandId], references: [id])
+  type           DeviceType
+  series         String? // "iPhone 13", "Galaxy S", "Galaxy A"
+  releaseYear    Int?
+  imageUrl       String?
+  specs          Json? // { screen: "6.1\" OLED", chip: "A15", ... }
+  storageOptions Json? // [128, 256, 512, 1024]
+  colors         Json? // ["Graphite", "Gold", ...]
+  searchText     String     @db.VarChar(500) // "iphone 13 pro ip13pro 13pro apple"
+  isPopular      Boolean    @default(false) // плитки «популярные» в калькуляторе
+  isActive       Boolean    @default(true)
+  repairIntro    Json? // i18n; уникальный текст страницы ремонта модели
+  seoTitle       Json? // i18n
   seoDescription Json? // i18n
 
   repairPrices  RepairPrice[]
   items         InventoryItem[]
   buybackPrices BuybackBasePrice[]
-  tickets       RepairTicket[]
-  buybacks      BuybackRequest[]
   stockAlerts   StockAlert[]
+  leads         Lead[]
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
@@ -65,7 +69,7 @@ model DeviceModel {
 // ───────────────────────────── Ремонт: прайс ─────────────────────────────
 
 enum PartQuality {
-  ORIGINAL // оригинал / снятый оригинал
+  ORIGINAL // оригинал
   PREMIUM // качественный аналог
   STANDARD // бюджетный аналог
   NONE // работа без детали (ПО, чистка)
@@ -75,107 +79,95 @@ model RepairType {
   id          String        @id @default(cuid())
   code        String        @unique // screen, battery, charging_port ... (см. migration/repair-prices.json)
   name        Json // i18n
-  description Json? // i18n; "Если нет чёрных пятен и полос — достаточно заменить стекло"
+  description Json? // i18n; «Если нет чёрных пятен и полос — достаточно заменить стекло»
   icon        String?
-  appliesTo   DeviceType[]
+  appliesTo   Json // ["PHONE","TABLET"]
   sortOrder   Int           @default(0)
   prices      RepairPrice[]
 }
 
 model RepairPrice {
-  id            String      @id @default(cuid())
-  modelId       String
-  model         DeviceModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
-  repairTypeId  String
-  repairType    RepairType  @relation(fields: [repairTypeId], references: [id])
-  quality       PartQuality @default(NONE)
-  priceCents    Int? // null = «цена по запросу»
-  isFromPrice   Boolean     @default(false) // «nuo 30 €»
-  durationMin   Int? // ориентир: 30
-  warrantyDays  Int         @default(90)
-  isActive      Boolean     @default(true)
-  updatedAt     DateTime    @updatedAt
+  id           String      @id @default(cuid())
+  modelId      String
+  model        DeviceModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  repairTypeId String
+  repairType   RepairType  @relation(fields: [repairTypeId], references: [id])
+  quality      PartQuality @default(NONE)
+  priceCents   Int? // null = «Kaina sutartinė»
+  isFromPrice  Boolean     @default(false) // «nuo 30 €»
+  durationMin  Int? // ориентир: 30
+  warrantyDays Int         @default(90)
+  isActive     Boolean     @default(true)
+  updatedAt    DateTime    @updatedAt
 
   @@unique([modelId, repairTypeId, quality])
 }
 
-// ───────────────────────────── Склад / каталог продажи ─────────────────────────────
+// ───────────────────────────── Телефоны на продажу ─────────────────────────────
 
 enum ItemCondition {
   NEW // новый, запечатан
   OPEN_BOX // новый, вскрыт
-  REFURBISHED // восстановлен у нас
+  REFURBISHED // восстановлен
   USED // б/у
 }
 
 enum ItemGrade {
-  A_PLUS // как новый, без следов
+  A_PLUS // как новый
   A // мелкие следы, незаметны с 30 см
   B // заметные потёртости
-  C // сколы/царапины, полностью рабочий
+  C // царапины / сколы, полностью рабочий
 }
 
 enum ItemStatus {
-  DRAFT // принят, готовится (фото, проверка)
+  DRAFT // готовится (фото, проверка)
   LISTED // в продаже
-  RESERVED // зарезервирован (заказ / бронь)
+  RESERVED // зарезервирован
   SOLD
-  RETURNED // вернули → обратно в DRAFT после проверки
-  ARCHIVED // списан / на запчасти
+  ARCHIVED
 }
 
 enum VatScheme {
-  STANDARD // НДС 21% с полной цены
-  MARGIN // маржинальная схема (б/у)
-  NONE // не плательщик НДС
-}
-
-enum ItemSource {
-  BUYBACK // куплен у клиента
-  SUPPLIER
-  TRADE_IN
-  OTHER
+  STANDARD
+  MARGIN
+  NONE
 }
 
 model InventoryItem {
-  id            String        @id @default(cuid())
-  sku           String        @unique // MP-000142
-  slug          String        @unique // iphone-14-pro-128gb-deep-purple-mp000142
-  modelId       String
-  model         DeviceModel   @relation(fields: [modelId], references: [id])
-  storageGb     Int?
-  ramGb         Int?
-  color         String?
-  condition     ItemCondition
-  grade         ItemGrade?
-  batteryHealth Int? // %
-  imei          String? // только админка
-  serial        String?
-  simLock       Boolean       @default(false)
-  icloudFrpFree Boolean       @default(true)
-  includes      String[] // ["box","cable","case"]
-  replacedParts Json? // i18n; "Baterija pakeista 2026-10 (originali)"
-  description   Json? // i18n
-  warrantyMonths Int          @default(6)
-  priceCents    Int
+  id             String        @id @default(cuid())
+  sku            String        @unique // MP-000142
+  slug           String        @unique // iphone-14-pro-256gb-deep-purple-mp000142
+  modelId        String
+  model          DeviceModel   @relation(fields: [modelId], references: [id])
+  storageGb      Int?
+  ramGb          Int?
+  color          String?
+  condition      ItemCondition
+  grade          ItemGrade?
+  batteryHealth  Int? // %
+  imei           String? // только админка
+  simUnlocked    Boolean       @default(true)
+  accountFree    Boolean       @default(true) // iCloud / Google FRP отвязан
+  includes       Json? // ["box","cable","case"]
+  replacedParts  Json? // i18n; «Baterija pakeista 2026-10 (originali)»
+  description    Json? // i18n
+  warrantyMonths Int           @default(6)
+  priceCents     Int
   compareAtCents Int? // старая цена
-  costCents     Int? // закупка (только админка)
-  repairCostCents Int        @default(0) // вложено в подготовку
-  vatScheme     VatScheme     @default(MARGIN)
-  status        ItemStatus    @default(DRAFT)
-  source        ItemSource    @default(OTHER)
-  buybackId     String?       @unique
-  buyback       BuybackRequest? @relation(fields: [buybackId], references: [id])
-  location      String? // "vitrina", "sandėlis", "pas meistrą"
-  isFeatured    Boolean       @default(false)
-  listedAt      DateTime?
-  soldAt        DateTime?
-  reservedUntil DateTime?
-  photos        ItemPhoto[]
-  orderLines    OrderLine[]
-  events        ItemEvent[]
-  createdAt     DateTime      @default(now())
-  updatedAt     DateTime      @updatedAt
+  costCents      Int? // закупка (только админка, для маржи)
+  vatScheme      VatScheme     @default(MARGIN)
+  status         ItemStatus    @default(DRAFT)
+  isFeatured     Boolean       @default(false)
+  checklist      Json? // { imei: true, account: true, tests: true, photos: true }
+  views          Int           @default(0)
+  reservedUntil  DateTime?
+  listedAt       DateTime?
+  soldAt         DateTime?
+  photos         ItemPhoto[]
+  leads          Lead[]
+  orderLines     OrderLine[]
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
 
   @@index([status, modelId])
   @@index([status, priceCents])
@@ -185,66 +177,106 @@ model ItemPhoto {
   id        String        @id @default(cuid())
   itemId    String
   item      InventoryItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
-  key       String // R2 key; варианты: _400.webp, _800.webp, _1600.webp
+  key       String // R2 key; варианты _400.webp, _800.webp, _1600.webp
   width     Int
   height    Int
   alt       String?
   sortOrder Int           @default(0)
 }
 
-model ItemEvent {
-  id        String        @id @default(cuid())
-  itemId    String
-  item      InventoryItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
-  type      String // created, listed, price_changed, reserved, released, sold, returned
-  data      Json?
-  userId    String?
-  createdAt DateTime      @default(now())
-}
-
 model StockAlert {
-  id        String       @id @default(cuid())
-  modelId   String
-  model     DeviceModel  @relation(fields: [modelId], references: [id])
-  storageGb Int?
+  id            String      @id @default(cuid())
+  modelId       String
+  model         DeviceModel @relation(fields: [modelId], references: [id])
+  storageGb     Int?
   maxPriceCents Int?
-  email     String?
-  phone     String?
-  locale    String       @default("lt")
-  notifiedAt DateTime?
-  createdAt DateTime     @default(now())
+  email         String
+  locale        String      @default("lt")
+  notifiedAt    DateTime?
+  createdAt     DateTime    @default(now())
 }
 
-// ───────────────────────────── Клиенты ─────────────────────────────
+// ───────────────────────────── Скупка: оценка ─────────────────────────────
 
-model Customer {
-  id        String   @id @default(cuid())
-  name      String?
-  email     String?  @unique
-  phone     String?  @unique // E.164: +37067306748
-  locale    String   @default("lt")
-  marketingConsent Boolean @default(false)
-  notes     String?
-  orders    Order[]
-  tickets   RepairTicket[]
-  buybacks  BuybackRequest[]
-  appointments Appointment[]
-  createdAt DateTime @default(now())
+model BuybackBasePrice {
+  id        String      @id @default(cuid())
+  modelId   String
+  model     DeviceModel @relation(fields: [modelId], references: [id])
+  storageGb Int         @default(0) // 0 = любая память
+  maxCents  Int // цена за идеальный аппарат
+  updatedAt DateTime    @updatedAt
+
+  @@unique([modelId, storageGb])
 }
 
-// ───────────────────────────── Заказы ─────────────────────────────
+model BuybackModifier {
+  id         String  @id @default(cuid())
+  question   String // works | screen | body | battery | biometrics | account | box
+  answer     String // ok | scratches | cracked ...
+  label      Json // i18n
+  percent    Int? // -30
+  minusCents Int?
+  rejects    Boolean @default(false) // «įvertinsime individualiai»
+  sortOrder  Int     @default(0)
+
+  @@unique([question, answer])
+}
+
+// ───────────────────────────── Заявки (входящие с сайта) ─────────────────────────────
+
+enum LeadType {
+  REPAIR // заявка на ремонт / диагностику из прайса или калькулятора
+  MAIL_IN // «отправлю телефон почтой / курьером»
+  RESERVATION // бронь телефона в салоне
+  QUESTION // «Klausti» по телефону на продажу
+  BUYBACK // результат калькулятора скупки
+  CONTACT // общая форма
+}
+
+enum LeadStatus {
+  NEW
+  IN_PROGRESS // связались
+  DONE // клиент пришёл / сделка
+  CANCELLED // отказ / не дозвонились
+}
+
+model Lead {
+  id          String         @id @default(cuid())
+  number      String         @unique // Z-2026-00042
+  type        LeadType
+  status      LeadStatus     @default(NEW)
+  name        String
+  phone       String // E.164
+  email       String?
+  message     String?        @db.Text
+  locale      String         @default("lt")
+  modelId     String?
+  model       DeviceModel?   @relation(fields: [modelId], references: [id])
+  modelText   String? // если модели нет в справочнике
+  itemId      String?
+  item        InventoryItem? @relation(fields: [itemId], references: [id])
+  data        Json? // REPAIR: { repairCodes, estimateCents, preferredTime }; BUYBACK: { storageGb, answers, estimateMin, estimateMax }
+  photos      Json? // R2 keys
+  source      String? // utm / страница
+  staffNote   String?        @db.Text
+  handledById String?
+  handledBy   User?          @relation(fields: [handledById], references: [id])
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  @@index([status, type, createdAt])
+}
+
+// ───────────────────────────── Онлайн-заказы (этап 2) ─────────────────────────────
 
 enum OrderStatus {
-  PENDING_PAYMENT // создан, ждём оплату (резерв 30 мин)
-  RESERVED // бронь в салоне без оплаты (24–48 ч)
+  PENDING_PAYMENT // ждём оплату (резерв 30 мин)
   PAID
-  PROCESSING // готовим к отправке
   READY_FOR_PICKUP
   SHIPPED
   COMPLETED
   CANCELLED
-  REFUNDED // полностью
-  PARTIALLY_REFUNDED
+  REFUNDED
 }
 
 enum DeliveryMethod {
@@ -253,45 +285,34 @@ enum DeliveryMethod {
   COURIER
 }
 
-enum PaymentMethod {
-  BANK_LINK
-  CARD
-  BNPL // рассрочка / лизинг
-  CASH_ON_PICKUP
-  CARD_ON_PICKUP
-  BANK_TRANSFER
-}
-
 model Order {
-  id            String         @id @default(cuid())
-  number        String         @unique // U-2026-00042
-  customerId    String
-  customer      Customer       @relation(fields: [customerId], references: [id])
-  status        OrderStatus
-  locale        String         @default("lt")
-  delivery      DeliveryMethod
-  carrier       String? // omniva | lp_express | dpd
-  pickupPointId String?
+  id              String         @id @default(cuid())
+  number          String         @unique // U-2026-00042
+  status          OrderStatus
+  name            String
+  phone           String
+  email           String
+  locale          String         @default("lt")
+  delivery        DeliveryMethod
+  carrier         String?
+  pickupPointId   String?
   pickupPointName String?
   shippingAddress Json?
-  shippingCents Int            @default(0)
-  subtotalCents Int
-  discountCents Int            @default(0)
-  tradeInCents  Int            @default(0) // зачёт trade-in
-  totalCents    Int
-  paymentMethod PaymentMethod
-  tradeInId     String?        @unique
-  tradeIn       BuybackRequest? @relation("OrderTradeIn", fields: [tradeInId], references: [id])
-  customerNote  String?
-  invoiceNumber String?        @unique
-  companyDetails Json? // если счёт на фирму: { name, code, vat, address }
-  expiresAt     DateTime? // когда снять резерв
-  lines         OrderLine[]
-  payments      Payment[]
-  shipments     Shipment[]
-  events        OrderEvent[]
-  createdAt     DateTime       @default(now())
-  updatedAt     DateTime       @updatedAt
+  shippingCents   Int            @default(0)
+  subtotalCents   Int
+  totalCents      Int
+  paymentMethod   String // bank_link | card | bnpl
+  paymentRef      String?        @unique // id платежа Montonio
+  paidAt          DateTime?
+  trackingNo      String?
+  invoiceNumber   String?        @unique
+  companyDetails  Json? // счёт на фирму
+  customerNote    String?        @db.Text
+  expiresAt       DateTime?
+  lines           OrderLine[]
+  events          OrderEvent[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
 
   @@index([status, createdAt])
 }
@@ -302,264 +323,72 @@ model OrderLine {
   order      Order          @relation(fields: [orderId], references: [id], onDelete: Cascade)
   itemId     String?
   item       InventoryItem? @relation(fields: [itemId], references: [id])
-  title      String // снимок названия на момент заказа
+  title      String // снимок названия
   priceCents Int
-  qty        Int            @default(1)
   vatScheme  VatScheme
 }
 
-model Payment {
-  id          String   @id @default(cuid())
-  orderId     String
-  order       Order    @relation(fields: [orderId], references: [id])
-  provider    String // montonio | cash | pos
-  providerRef String?  @unique
-  amountCents Int
-  status      String // pending | paid | failed | refunded
-  raw         Json?
-  createdAt   DateTime @default(now())
-}
-
-model Shipment {
-  id          String   @id @default(cuid())
-  orderId     String
-  order       Order    @relation(fields: [orderId], references: [id])
-  carrier     String
-  trackingNo  String?
-  labelUrl    String?
-  status      String // created | sent | delivered | returned
-  createdAt   DateTime @default(now())
-}
-
 model OrderEvent {
-  id        String   @id @default(cuid())
+  id        String       @id @default(cuid())
   orderId   String
-  order     Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  order     Order        @relation(fields: [orderId], references: [id], onDelete: Cascade)
   from      OrderStatus?
   to        OrderStatus
   note      String?
   userId    String?
-  createdAt DateTime @default(now())
-}
-
-// ───────────────────────────── Ремонт: запись и тикеты ─────────────────────────────
-
-model Appointment {
-  id          String    @id @default(cuid())
-  customerId  String
-  customer    Customer  @relation(fields: [customerId], references: [id])
-  modelId     String?
-  modelText   String? // если модели нет в справочнике
-  repairCodes String[]
-  startsAt    DateTime
-  durationMin Int       @default(30)
-  status      String    @default("booked") // booked | confirmed | arrived | no_show | cancelled
-  ticketId    String?   @unique
-  ticket      RepairTicket? @relation(fields: [ticketId], references: [id])
-  note        String?
-  createdAt   DateTime  @default(now())
-
-  @@index([startsAt])
-}
-
-enum TicketStatus {
-  NEW // заявка с сайта / почта, устройство ещё не у нас
-  AWAITING_DEVICE // ждём посылку/курьера
-  RECEIVED // принят в салоне, акт подписан
-  DIAGNOSING
-  AWAITING_APPROVAL // клиенту отправлена цена
-  APPROVED
-  WAITING_PARTS
-  IN_REPAIR
-  QUALITY_CHECK
-  READY // готов к выдаче / отправке
-  SHIPPED_BACK
-  COMPLETED // выдан, оплачен
-  DECLINED // клиент отказался → выдать без ремонта
-  CANNOT_REPAIR
-}
-
-enum IntakeChannel {
-  WALK_IN
-  APPOINTMENT
-  MAIL_IN // посылка / автобус
-  COURIER
-}
-
-model RepairTicket {
-  id            String        @id @default(cuid())
-  number        String        @unique // R-2026-00123
-  publicToken   String        @unique // для ссылки статуса без логина
-  customerId    String
-  customer      Customer      @relation(fields: [customerId], references: [id])
-  modelId       String?
-  model         DeviceModel?  @relation(fields: [modelId], references: [id])
-  modelText     String?
-  imei          String?
-  channel       IntakeChannel
-  status        TicketStatus  @default(NEW)
-  problem       String // со слов клиента
-  deviceState   Json? // { screen: "cracked", back: "ok", powersOn: true, faceId: false ... }
-  accessories   String[] // ["case","sim tray"]
-  unlockCode    String? // шифруется, удаляется после выдачи
-  intakePhotos  String[] // R2 keys
-  signatureKey  String? // подпись на планшете (PNG)
-  estimateCents Int?
-  approvedCents Int?
-  finalCents    Int?
-  approvedAt    DateTime?
-  loanerPhone   String? // выданный подменный телефон
-  assigneeId    String?
-  assignee      User?         @relation(fields: [assigneeId], references: [id])
-  dueAt         DateTime?
-  warrantyUntil DateTime?
-  parentTicketId String? // гарантийный возврат → ссылка на исходный ремонт
-  parentTicket  RepairTicket? @relation("WarrantyChain", fields: [parentTicketId], references: [id])
-  warrantyTickets RepairTicket[] @relation("WarrantyChain")
-  lines         TicketLine[]
-  events        TicketEvent[]
-  appointment   Appointment?
-  createdAt     DateTime      @default(now())
-  updatedAt     DateTime      @updatedAt
-
-  @@index([status, dueAt])
-}
-
-model TicketLine {
-  id          String       @id @default(cuid())
-  ticketId    String
-  ticket      RepairTicket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
-  repairCode  String?
-  title       String
-  quality     PartQuality  @default(NONE)
-  priceCents  Int
-  partCostCents Int?
-  warrantyDays Int         @default(90)
-}
-
-model TicketEvent {
-  id        String       @id @default(cuid())
-  ticketId  String
-  ticket    RepairTicket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
-  from      TicketStatus?
-  to        TicketStatus
-  publicNote String? // видно клиенту на /statusas
-  internalNote String?
-  notified  Boolean      @default(false)
-  userId    String?
   createdAt DateTime     @default(now())
-}
-
-// ───────────────────────────── Скупка / trade-in ─────────────────────────────
-
-model BuybackBasePrice {
-  id         String      @id @default(cuid())
-  modelId    String
-  model      DeviceModel @relation(fields: [modelId], references: [id])
-  storageGb  Int?
-  maxCents   Int // цена за идеальный аппарат
-  updatedAt  DateTime    @updatedAt
-
-  @@unique([modelId, storageGb])
-}
-
-model BuybackModifier {
-  id        String        @id @default(cuid())
-  question  String // screen | body | battery | works | icloud | box
-  answer    String // ok | scratches | cracked ...
-  label     Json // i18n
-  // либо процент от базы, либо фикс. вычет
-  percent   Int? // -30
-  minusCents Int?
-  rejects   Boolean       @default(false) // iCloud заблокирован → не покупаем (или «на запчасти»)
-  sortOrder Int           @default(0)
-
-  @@unique([question, answer])
-}
-
-enum BuybackStatus {
-  NEW // онлайн-оценка
-  CONTACTED
-  AWAITING_DEVICE // ждём визит / курьера
-  INSPECTING
-  OFFER_SENT // финальная цена после проверки
-  ACCEPTED
-  PAID // деньги выплачены, договор подписан
-  REJECTED // клиент отказался / не прошёл проверку
-  RETURNED // вернули устройство
-}
-
-model BuybackRequest {
-  id            String        @id @default(cuid())
-  number        String        @unique // S-2026-00017
-  customerId    String
-  customer      Customer      @relation(fields: [customerId], references: [id])
-  modelId       String?
-  model         DeviceModel?  @relation(fields: [modelId], references: [id])
-  modelText     String?
-  storageGb     Int?
-  answers       Json // { screen: "ok", body: "scratches", battery: "85", works: "yes", icloud: "off" }
-  photos        String[]
-  estimateMinCents Int?
-  estimateMaxCents Int?
-  finalCents    Int?
-  status        BuybackStatus @default(NEW)
-  isTradeIn     Boolean       @default(false)
-  channel       IntakeChannel @default(WALK_IN)
-  payoutMethod  String? // cash | bank
-  payoutIban    String? // шифруется
-  // договор: паспортные данные шифруются (см. 01-architecture §6)
-  sellerIdEncrypted String?
-  contractPdfKey String?
-  paidAt        DateTime?
-  item          InventoryItem?
-  order         Order?        @relation("OrderTradeIn")
-  createdAt     DateTime      @default(now())
-  updatedAt     DateTime      @updatedAt
 }
 
 // ───────────────────────────── Контент ─────────────────────────────
 
 model Page {
-  id        String        @id @default(cuid())
-  path      String        @unique // "/informacija/remonto-laikas/" (lt); переводы — в translations
-  template  String        @default("content") // content | landing | city | legal
-  title     Json // i18n
-  blocks    Json // массив блоков: hero, text, faq, prices, cta, steps, reviews, map
-  seoTitle  Json? // i18n
+  id             String   @id @default(cuid())
+  path           String   @unique // "/informacija/remonto-laikas/"
+  template       String   @default("content") // content | landing | city | legal
+  title          Json // i18n
+  blocks         Json // [{ type: "hero" | "text" | "faq" | "prices" | "cta" | "steps" | "reviews" | "map", ... }]
+  seoTitle       Json? // i18n
   seoDescription Json? // i18n
-  localizedPaths Json? // { ru: "/ru/informaciya/...", en: "/en/info/..." }
-  isPublished Boolean     @default(false)
-  noindex   Boolean       @default(false)
-  updatedAt DateTime      @updatedAt
+  localizedPaths Json? // { ru: "/ru/...", en: "/en/..." }
+  isPublished    Boolean  @default(false)
+  noindex        Boolean  @default(false)
+  updatedAt      DateTime @updatedAt
 }
 
 model BlogPost {
-  id          String        @id @default(cuid())
-  slug        String        @unique
+  id          String    @id @default(cuid())
+  slug        String    @unique
   title       Json // i18n
   excerpt     Json? // i18n
-  body        Json // блоки / MDX
+  body        Json // блоки
   coverKey    String?
   publishedAt DateTime?
-  updatedAt   DateTime      @updatedAt
+  updatedAt   DateTime  @updatedAt
 }
 
 model Faq {
-  id        String        @id @default(cuid())
+  id        String @id @default(cuid())
   topic     String // general | repair | buyback | shop | warranty
   question  Json // i18n
   answer    Json // i18n
-  sortOrder Int           @default(0)
+  sortOrder Int    @default(0)
 }
 
 model Redirect {
-  id        String   @id @default(cuid())
-  fromPath  String   @unique
-  toPath    String?
-  code      Int      @default(301) // 301 | 410
-  hits      Int      @default(0)
+  id        String    @id @default(cuid())
+  fromPath  String    @unique @db.VarChar(500)
+  toPath    String?   @db.VarChar(500)
+  code      Int       @default(301) // 301 | 410
+  hits      Int       @default(0)
   lastHitAt DateTime?
+}
+
+model NotFoundLog {
+  id       String   @id @default(cuid())
+  path     String   @unique @db.VarChar(500)
+  hits     Int      @default(1)
+  lastAt   DateTime @default(now())
+  referrer String?  @db.VarChar(500)
 }
 
 model ReviewCache {
@@ -567,59 +396,60 @@ model ReviewCache {
   source    String   @default("google")
   author    String
   rating    Int
-  text      String
+  text      String   @db.Text
   date      DateTime
   isVisible Boolean  @default(true)
 }
 
 model Setting {
-  key   String @id // company, hours, phones, languages, booking, buyback, shipping
+  key   String @id // company, hours, contacts, facts, languages, shipping
   value Json
 }
 
-// ───────────────────────────── Персонал и журнал ─────────────────────────────
+// ───────────────────────────── Служебное ─────────────────────────────
+
+// Очередь задач вместо фонового воркера: cron hPanel раз в минуту вызывает /api/cron.
+model Job {
+  id        String    @id @default(cuid())
+  type      String // send_email | send_telegram | release_reservation | stock_alert | sync_reviews | backup
+  payload   Json
+  runAt     DateTime  @default(now())
+  attempts  Int       @default(0)
+  lastError String?   @db.Text
+  doneAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([doneAt, runAt])
+}
 
 enum Role {
   OWNER // всё
-  MANAGER // заказы, каталог, цены, контент
-  TECHNICIAN // тикеты (свои + общая очередь), без денег закупки
-  SALES // заказы, приём, скупка, выдача
+  MANAGER // каталог, цены, заявки, заказы, контент
+  STAFF // заявки, брони, публикация телефонов (без закупочных цен)
   CONTENT // страницы, блог, SEO
 }
 
 model User {
-  id           String   @id @default(cuid())
-  email        String   @unique
+  id           String    @id @default(cuid())
+  email        String    @unique
   name         String
   role         Role
   passwordHash String
   totpSecret   String?
-  isActive     Boolean  @default(true)
-  tickets      RepairTicket[]
+  isActive     Boolean   @default(true)
+  leads        Lead[]
   lastLoginAt  DateTime?
-  createdAt    DateTime @default(now())
+  createdAt    DateTime  @default(now())
 }
 
 model AuditLog {
   id        String   @id @default(cuid())
   userId    String?
-  action    String // item.price_changed, buyback.id_viewed, order.refunded ...
+  action    String // item.price_changed, prices.bulk_update, lead.status ...
   entity    String
   entityId  String
   data      Json?
-  ip        String?
   createdAt DateTime @default(now())
 
   @@index([entity, entityId])
-}
-
-model NotificationLog {
-  id        String   @id @default(cuid())
-  channel   String // email | sms
-  to        String
-  template  String // order_paid, ticket_ready, appointment_reminder ...
-  entityId  String?
-  status    String // queued | sent | failed
-  error     String?
-  createdAt DateTime @default(now())
 }
